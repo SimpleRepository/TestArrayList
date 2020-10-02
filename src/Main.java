@@ -14,5 +14,15 @@ public class Main {
         System.out.println(arrayList.get(0));
         System.out.println(arrayList.get(--i));
         System.out.println(arrayList.size());
+
+        for (int j = 0; j < arrayList.size(); j++) {
+            System.out.println(arrayList.get(j));
+        }
+
+        arrayList.remove(5);
+
+        for(Object s:arrayList){
+            System.out.println(s);
+        }
     }
 }
