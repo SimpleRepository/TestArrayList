@@ -21,7 +21,7 @@ public class Main {
             System.out.println(list.get(j));
         }
 
-        list.remove(5);
+        list.remove(6);
 
         for(Object s:list){
             System.out.println(s);
