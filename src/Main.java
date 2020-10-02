@@ -27,6 +27,6 @@ public class Main {
             System.out.println(s);
         }
 
-        list = new LinkedList<Integer>(   );
+        list = new LinkedList<Integer>();
     }
 }
